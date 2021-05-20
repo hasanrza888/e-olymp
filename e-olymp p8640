@@ -1,0 +1,8 @@
+a,b=map(int,input().split())
+for n in range(a,b+1):
+    c=n//1000
+    d=n//100%10
+    e=n//10%10
+    f=n%10
+    if c%2==1 and d%2==1 and e%2==1 and f%2==1:
+        print(n, end=" ")
